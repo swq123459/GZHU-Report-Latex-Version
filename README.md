@@ -21,7 +21,7 @@
 -----------------------
 
 ## 广大官方版仿照-综合性实验报告模板-版本3
-- 文件夹名-`Comprehensive experiment report ver2`
+- 文件夹名-`Comprehensive experiment report ver3`
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)
 ----------
 ## 广大官方版仿照-毕业实习报告模板
