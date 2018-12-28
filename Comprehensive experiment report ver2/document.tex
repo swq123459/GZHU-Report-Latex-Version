@@ -1,0 +1,98 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage{indentfirst}
+%\graphicspath{{chapter/}{figures/}}
+\usepackage{CJK}
+
+%\usepackage[colorlinks,linkcolor=red]{hyperref}%超链接
+
+\usepackage{fancyhdr}  %使用fancyhdr包自定义页眉页脚
+%\pagestyle{empty}
+\pagestyle{fancy}
+%\pagestyle{plain}%没有页眉，页脚放页数
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\usepackage{booktabs}%表格用
+
+\usepackage{float}%可以用于禁止浮动体浮动
+
+%目录超链接
+\usepackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=black]{hyperref}
+
+\usepackage{listings}%可以插入代码
+\usepackage{xcolor}%语法高亮支持
+%代码格式
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	%	language=Python,                % the language of the code
+	breaklines,%自动折行
+	%extendedchars=false%解决代码跨页时，章节标题，页眉等汉字不显示的问题
+	keepspaces=false,  
+	%tabsize=4 %设置tab空格数
+	showspaces=false,  %不显示空格
+	showtabs=false,  
+	showstringspaces=true, 
+	numbers=left, 
+	basicstyle=\footnotesize, 
+	numberstyle=\tiny, 
+	numbersep=5pt, 
+	keywordstyle= \color{ blue!70},%关键字颜色
+	commentstyle= \color{red!50!green!50!blue!50},%注释颜色 
+	frame=shadowbox, % 边框格式：阴影效果
+	rulesepcolor= \color{ red!20!green!20!blue!20} ,
+	escapeinside=``, % 英文分号中可写入中文
+	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,%设置页边距
+	framexleftmargin=2em
+}
+
+
+
+
+%设置页面格式
+\usepackage[left=2.0cm, right=2.0cm, top=2.0cm, bottom=2.0cm]{geometry}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.2\textwidth]{sf1.png}\par
+	\vspace{0.5cm}
+	\includegraphics[width=0.4\textwidth]{sf.png}\par
+	\vspace{0.1cm}
+	{\scshape\LARGE Guangzhou University \par}
+	\vspace{1cm}
+	{\kaishu\huge 基于监控视频的\par}
+	\vspace{0.5cm}
+	{\kaishu\huge 课堂自动签到系统的设计\par}
+	\vspace{5cm}
+	{\LARGE\bfseries 数字图像处理\par}
+	\vspace{1cm}
+	{\fangsong\Large\itshape 苏伟强\par}
+	\vspace{1cm}
+	{1507400051}\par
+	\fangsong{电信151}\par
+	指导教师	\textsc{胡晓}
+	\vfill
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+\tableofcontents
+\newpage
+
+
+\begin{thebibliography}{4}
+	\bibitem{Butterworth}Butterworth S. On the theory of filter amplifiers[J]. Wireless Engineer, 1930, 7(6): 536-541.
+\end{thebibliography}
+
+
+\end{document}
