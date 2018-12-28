@@ -21,6 +21,7 @@
 -----------------------
 
 ## 广大官方版仿照-综合性实验报告模板-版本3
+- 原来的设计为张承云老师制，现改装为`Latex`样式，这里鸣谢张承云老师
 - 文件夹名-`Comprehensive experiment report ver3`
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)
 ----------
