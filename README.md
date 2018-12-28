@@ -22,11 +22,11 @@
 
 ## 广大官方版仿照-综合性实验报告模板-版本3
 - 文件夹名-`Comprehensive experiment report ver2`
-![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/.png?raw=true)
+![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)
 ----------
 ## 广大官方版仿照-毕业实习报告模板
 - 文件夹名-`Graduation Practice Report`
-![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)
+![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/by1.png?raw=true)
 -----------------
 ## 广大官方版仿照-课程设计报告模板-通信电子系
 - 文件夹名-`Course Design Report`
