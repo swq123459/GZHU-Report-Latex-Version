@@ -13,7 +13,7 @@
 
 | 自制版-综合性实验报告模板-版本1 | 自制版-综合性实验报告模板-版本2 |
 |:---:|:---:|
-| ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true) |
+| ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)|
 
 | 官方版-综合性实验报告模板-版本3 | 广大官方版仿照-毕业实习报告模板 |
 |:---:|:---:|
