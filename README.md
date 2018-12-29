@@ -21,6 +21,7 @@
 - 点击下载[pdf](https://github.com/swq123459/GZHU-Report-Latex-Version/blob/master/%E4%B8%80%E4%BA%9B%E6%88%91%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E6%8A%A5%E5%91%8A/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%A5%E5%91%8A%E5%9F%BA%E4%BA%8ECNN%E7%9A%84%E7%9B%91%E6%8E%A7%E8%A7%86%E9%A2%91%E6%B5%81%E7%9A%84%E8%AF%BE%E5%A0%82%E7%AD%BE%E5%88%B0%E7%B3%BB%E7%BB%9F.pdf)
 
 - 下载模板[tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC2)
+
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv2.png?raw=true)
 
 -----------------------
