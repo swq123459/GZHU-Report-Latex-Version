@@ -11,8 +11,7 @@
 ---------
 
 
-|  [自制版-综合性实验报告模板-版本1](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC1) |  [自制版-综合性实验报告模板-版本2](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC2)
-|
+|  [自制版-综合性实验报告模板-版本1](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC1) |  [自制版-综合性实验报告模板-版本2](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC2)|
 |:---:|:---:|
 | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)|
 
