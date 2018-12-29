@@ -15,7 +15,7 @@
 - 下载模板 [tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC1)
 
 <center>
-<image src="https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true" width=100 height=200>
+<image src="https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true">
 </center>
 --------------------
  
