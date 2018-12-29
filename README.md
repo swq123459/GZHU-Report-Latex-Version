@@ -19,7 +19,7 @@
 |:---:|:---:|
 | [![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) | [![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/by1.png?raw=true)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)|
 
-|  [广大官方版-课程设计报告模板-通信电子系](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E5%AD%A6%E9%99%A2%E7%89%88-%E6%AF%95%E4%B8%9A%E5%AE%9E%E4%B9%A0%E6%8A%A5%E5%91%8A)| 广大官方版-实验报告 |
+|  [广大官方版-课程设计报告模板-通信电子系](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E5%AD%A6%E9%99%A2%E7%89%88-%E6%AF%95%E4%B8%9A%E5%AE%9E%E4%B9%A0%E6%8A%A5%E5%91%8A)| [广大官方版-实验报告](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E5%AE%98%E6%96%B9%E7%89%88-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF) |
 |:---:|:---:|
 | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/kcsj1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/bg1.png?raw=true) |
 
