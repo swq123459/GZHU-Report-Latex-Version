@@ -10,6 +10,7 @@
 3. 为了方便小白写`Latex`,我里面注释都有很多比方说公式，图片插入（插入图片最后用`.pdf`的图片或者`.eps`的图片，这样放大之后不会有丢失，也就是矢量图），表格插入，代码插入，之类的示范，大家点进去看就知道了。
 ---------
 ## 自制版-综合性实验报告模板-版本1
+点击下载 [PDF](https://github.com/swq123459/GZHU-Report-Latex-Version/blob/master/%E4%B8%80%E4%BA%9B%E6%88%91%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E6%8A%A5%E5%91%8A/Linux%E5%B9%B3%E5%8F%B0%E4%B8%8A%E5%9F%BA%E4%BA%8EZernike%E7%9F%A9%E7%9A%84%E4%BA%9A%E5%83%8F%E7%B4%A0%E5%B7%A5%E4%B8%9A%E9%9B%B6%E4%BB%B6%E6%B5%8B%E9%87%8F.pdf)
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true)
 --------------------
 ## 自制版-综合性实验报告模板-版本2
