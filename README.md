@@ -36,6 +36,7 @@
 ----------
 ## 广大官方版仿照-毕业实习报告模板
 - 下载模板[tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E5%AD%A6%E9%99%A2%E7%89%88-%E6%AF%95%E4%B8%9A%E5%AE%9E%E4%B9%A0%E6%8A%A5%E5%91%8A)
+
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/by1.png?raw=true)
 -----------------
 ## 广大官方版仿照-课程设计报告模板-通信电子系
@@ -43,6 +44,7 @@
 - 下载模板[tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E5%AE%98%E6%96%B9%E7%89%88-%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1)
 
 - 点击下载[pdf](https://github.com/swq123459/GZHU-Report-Latex-Version/blob/master/%E4%B8%80%E4%BA%9B%E6%88%91%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E6%8A%A5%E5%91%8A/%E5%A4%A7%E5%9B%9B%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B.pdf)
+
 ![image](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/kcsj1.png?raw=true)
 
 -----------------------------
