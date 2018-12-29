@@ -19,9 +19,9 @@
 |:---:|:---:|
 | [![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/xy1.png?raw=true)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) | [![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/by1.png?raw=true)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
 
-| 广大官方版仿照-课程设计报告模板-通信电子系 |  |
+| 广大官方版-课程设计报告模板-通信电子系 | 广大官方版-实验报告 |
 |:---:|:---:|
-| ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/kcsj1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/kcsj1.png?raw=true) |
+| ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/kcsj1.png?raw=true) | ![Résumé](https://github.com/swq123459/swq123456-readmePicture/blob/master/report/bg1.png?raw=true) |
 
 
 
