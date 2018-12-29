@@ -12,8 +12,8 @@
 ## 自制版-综合性实验报告模板-版本1
 - 点击下载 [PDF](https://github.com/swq123459/GZHU-Report-Latex-Version/blob/master/%E4%B8%80%E4%BA%9B%E6%88%91%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E6%8A%A5%E5%91%8A/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1Linux%E5%B9%B3%E5%8F%B0%E5%9F%BA%E4%BA%8EZernike%E7%9F%A9%E7%9A%84%E4%BA%9A%E5%83%8F%E7%B4%A0%E5%B7%A5%E4%B8%9A%E9%9B%B6%E4%BB%B6%E6%B5%8B%E9%87%8F.pdf)
 
-- 下载模板 [tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC1
-)
+- 下载模板 [tex](https://github.com/swq123459/GZHU-Report-Latex-Version/tree/master/%E8%87%AA%E5%88%B6%E7%89%88-%E7%BB%BC%E5%90%88%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%89%88%E6%9C%AC1)
+
 <center>
 <image src="https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png?raw=true">
  </center>
