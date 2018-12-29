@@ -1,0 +1,302 @@
+%设置整个文档字体大小，纸张
+\documentclass[UTF8,a4paper,10pt]{ctexart}
+
+%设置页面格式
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+
+%可以用于禁止浮动体浮动
+\usepackage{float}
+
+%表格竖线连续化
+\usepackage{makecell}
+\newcommand\toprule{\Xhline{.08em}}
+\newcommand\midrule{\Xhline{.05em}}
+\newcommand\bottomrule{\Xhline{.08em}}
+
+%!\I 就可以代替| 来画表格了
+\def\I{\vrule width1.2pt}
+
+%缩进支持
+\usepackage{indentfirst}
+
+%可以插入代码
+\usepackage{listings}
+%语法高亮支持
+\usepackage{xcolor}
+%代码格式
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	%language=Python,	% 编程语言，这里可以不用先设置，用到的时候再设置
+	breaklines,	%自动折行
+	%extendedchars=false	%解决代码跨页时，章节标题，页眉等汉字不显示的问题
+	keepspaces=false,  
+	%tabsize=4 	%设置tab空格数
+	showspaces=false,  %不显示空格
+	showtabs=false,  
+	showstringspaces=true, 
+	numbers=left, 
+	basicstyle=\footnotesize, 
+	numberstyle=\tiny, 
+	numbersep=5pt, 
+	keywordstyle= \color{ blue!70},	%关键字颜色
+	commentstyle= \color{red!50!green!50!blue!50},	%注释颜色 
+	frame=shadowbox,	 % 边框格式：阴影效果
+	rulesepcolor= \color{ red!20!green!20!blue!20} ,
+	escapeinside=``,	 % 英文分号中可写入中文
+	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,	%设置页边距
+	framexleftmargin=2em
+}
+
+%设置章节标题左对齐
+\CTEXsetup[format={\Large\bfseries}]{section} 
+
+%超链接颜色，会影响文中中引用的字体颜色
+\usepackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=black]{hyperref}
+
+%自定义页眉、页脚
+\usepackage{fancyhdr}  %使用fancyhdr包自定义页眉页脚
+\pagestyle{fancy}
+%\pagestyle{plain}%没有页眉，页脚放页数
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%可以使用插图图片相关
+\usepackage{caption}
+\usepackage{graphicx, subfig}
+
+\begin{document}
+
+
+
+%表头部分
+\centerline{\LARGE\textbf{学生实验报告}} 
+\vspace{1cm}
+\setlength{\parindent}{1em}{\textbf{开课学院及实验室：}}{\kaishu \textbf{机电学院\quad 电子楼510}}\qquad\qquad\qquad\qquad\qquad\qquad\qquad\quad {\textbf{2018年5月24日}}
+\renewcommand\arraystretch{1.5}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{!\I p{1.5cm}<{\centering}|p{1.5cm}<{\centering}!\I p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|c!\I c|c!\I}
+		\Xhline{1.2pt}
+		学院  & 机电学院 & 班级 & 电信151 & 姓名  & 苏伟强 & 学号  & 1507400051   \\
+		\Xhline{1.2pt}
+		\multicolumn{2}{!\I c!\I}{实验课程名称} & \multicolumn{4}{c!\I}{模式识别概论} & 成绩  &    \\
+		\Xhline{1.2pt}
+		\multicolumn{2}{!\I c!\I}{实验项目名称} & \multicolumn{4}{c!\I}{实验三 主成分分析} & 指导老师 & 杨钊   \\
+		\Xhline{1.2pt}
+	\end{tabular}%
+\end{table}%
+
+\section{实验目的}
+通过matlab简单的演示程序，理解PCA原理
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.1]{1.jpg} %1.png是图片文件的相对路径
+	\caption{插图标题} %caption是图片的标题
+	\label{img} %此处的label相当于一个图片的专属标志，目的是方便上下文的引用
+\end{figure}
+
+\begin{equation}
+\pi = 3.1415
+\end{equation}
+
+
+
+
+\section{实验原理}
+
+\section{实验设备}
+
+实验平台：NVIDIA$^{\textregistered}$ Jetson TK1板，$Opencv2.4.10$，$GTK2.0$
+
+\section{实验内容}
+
+
+\section{心得体会}
+1.使用PCA对数据进行降维的思路：将输入的样本看成一个随机向量，即
+
+\begin{equation}
+\label{yb}
+\vec{X}=\{X_{1}, X_{2}, X_{3},... X_{N}\}\qquad N=0,1,2...
+\end{equation}
+
+
+\section{代码}
+\lstset{language=C}
+\begin{lstlisting}[title=PCAdemo.m]
+
+\end{lstlisting}
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%双并列图片示例
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[H]
+%	\centering
+%	\begin{minipage}[t]{0,40\textwidth}	
+%		\centering
+%		\includegraphics[scale=0.5]{ccjg.pdf} %1.png是图片文件的相对路径
+%		\caption{IEEE 802.11层次结构} %caption是图片的标题
+%		\label{p_ccjg} %此处的label相当于一个图片的专属标志，目的是方便上下文的引用
+%	\end{minipage}
+%	\hfil
+%	\begin{minipage}[t]{0,50\textwidth}	
+%		\centering
+%		\includegraphics[scale=1]{AODV.pdf} %1.png是图片文件的相对路径
+%		\caption{AODV示意图} %caption是图片的标题
+%		\label{p_AODV} %此处的label相当于一个图片的专属标志，目的是方便上下文的引用
+%	\end{minipage}
+%\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%表格示例
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{table}[H]
+%	\centering
+%	\caption{802.11a/b/g物理层，MAC层参数}
+%	\begin{tabular}{ccccc}
+%		\toprule
+%		&  参数  & 802.11a & 802.11b & 802.11g \\
+%		\midrule
+%		\multirow{4}[7]{*}{物理层} & 频带/Hz（freq\_） & $5*10^9$ & $2.4*10^9$ & $2.4*10^9$ \\
+%		\cmidrule{3-5}       & 通信感知范围\cite{bib13}（CSThresh\_） & $3.17291*10^9$ & $2.79*10^9$ & $2.79*10^9$ \\
+%		\cmidrule{3-5}       & 可通信范围\cite{bib13}（RXThresh\_） & $6.5556*10^{10}$ & $5.76*10^9$ & $5.76*10^9$ \\
+%		\cmidrule{3-5}       & 传输功率/W（Pt\_） & 0.281838 & 0.281838 & 0.281838 \\
+%		\midrule
+%		\multirow{9}[17]{*}{MAC层} & 竞争窗口最小值\cite{bib12}/s（CWMin） & 15 & 31 & 15 \\
+%		\cmidrule{3-5}       & 竞争窗口最大值\cite{bib12}/s（CWMax） & 1023 & 1023 & 1023 \\
+%		\cmidrule{3-5}       & 时隙\cite{bib11}/s(SlotTime\_) & 0.00005 & 0.00002 & 0.000009s \\
+%		\cmidrule{3-5}       & SIFS\cite{bib14}\cite{bib11}/s(SIFS\_) & 0.000016 & 0.00001 & 0.000016s \\
+%		\cmidrule{3-5}       & 前导码长度\cite{bib14}(PreambleLength) & 96 & 144 & 120 \\
+%		\cmidrule{3-5}       & PLCP头部长度\cite{bib14}PLCPHeaderLength\_） & 24 & 48 & 24 \\
+%		\cmidrule{3-5}       & PLCP数据率\cite{bib14}/bps（PLCPDataRate\_） & $6*10^6$ & $1*10^6$ & $6*10^6$ \\
+%		\cmidrule{3-5}       & 最高速率\cite{bib14}/bps（dataRate） & $5.4*10^7$ & $1.1*10^7$ & $5.4*10^7$ \\
+%		\cmidrule{3-5}       & 最低速率\cite{bib14}/bps（basicRate\_） & $6*10^6$ & $1*10^6$ & $6*10^6$ \\
+%		\bottomrule
+%	\end{tabular}%
+%	\label{t_abgcs}%
+%\end{table}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%插入代码示例
+%%%%%%%%%%%%title：代码文件标题
+%%%%%%%%%%%%basicstyle:字体大小
+%%%%%%%%%%%%language:语言，C++,C,Matlab，Python
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lstset{language=C++}
+%\begin{lstlisting}[title=AODV100.tr,basicstyle=\tiny]
+%
+%\end{lstlisting}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%对齐公式示例
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{align}
+%	\label{kk}
+%	k&=\dfrac{3Z_{11}^{'}}{2(1-l^2_2)^{3/2}}\\
+%	\label{hh}
+%	h&=\frac{1}{\pi}\left[Z_{00}-\frac{k\pi}{2}+k\arcsin(l_2)+kl_2\sqrt{1-l^2_2} \right]\\
+%	\label{ll} l&=\frac{1}{2}\left[\sqrt{\frac{5Z_{40}^{'}+3Z^{'}_{20}}{8Z_{20}}}+\sqrt{\frac{5Z_{11}^{'}+Z^{'}_{11}}{6Z_{11}}}\right]\\
+%	\label{pp}
+%	\phi&=\arctan\left[\frac{Im[Z_{n1}]}{Re[Z_{n1}]}\right]
+%\end{align}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%表格示例2
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{table}[H]
+%	\centering
+%	\caption{NVIDIA$^{\textregistered}$ Jetson TK1配置一览}
+%	\vspace{0.5cm}
+%	\begin{tabular}{l}
+%		\Xhline{1.2pt}
+%		Tegra K1 SOC \\
+%		NVIDIA$^{\textregistered}$ Kepler$^{\textregistered}$ GPU、192 个 CUDA 核心 \\
+%		NVIDIA$^{\textregistered}$ 4-Plus-1™ 四核 ARM$^{\textregistered}$ Cortex™-A15 CPU \\
+%		2 GB x16 内存、64 位宽度 \\
+%		16 GB 4.51 eMMC 内存 \\
+%		1 个 USB 3.0 端口、A  \\
+%		1 个 USB 2.0 端口、Micro AB\\
+%		1 个半迷你 PCIE 插槽\\
+%		1 个完整尺寸 SD/MMC 连接器\\
+%		1 个 RTL8111GS Realtek 千兆位以太网局域网 \\
+%		1 个 SATA 数据端口 \\
+%		1 个完整尺寸 HDMI 端口 \\
+%		1 个 RS232 串行端口 \\
+%		SPI 4 兆字节引导闪存\\
+%		1 个带 Mic In 和 Line Out 的 ALC5639 Realtek 音频编解码器\\
+%		以下信号可通过扩展端口获得:DP/LVDS, Touch SPI 1x4 + 1x1 CSI-2, GPIOs, UART, HSIC, I$^2$C
+%		\\
+%		\Xhline{1.2pt}
+%	\end{tabular}%
+%	\label{aaa}%
+%\end{table}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%双并列表格示例
+%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{table}[H]\footnotesize
+%	\centering
+%	
+%	\begin{minipage}[t]{0,47\textwidth}		
+%		\caption{上位机配置清单}
+%		\vspace{0.5cm}
+%		\centering
+%		\begin{tabular}{cc}
+%			\Xhline{1.2pt}
+%			运行环境 & ubuntu14 (基于Cortex$^{\textregistered}$-A15芯片) \\
+%			编程语言 & C/C++ \\
+%			第三方库及组件 & GTK2.0，OpenCV2.4.10 \\
+%			开发环境 & Qt Creator 与 make工程管理器  \\
+%			编译工具链 & NVIDIA$^{\textregistered}$-ARM$^{\textregistered}$编译工具链 \\
+%			程序结构 & 模块化结构 \\
+%			\Xhline{1.2pt}
+%		\end{tabular}%
+%		
+%		\label{pzqd}%
+%	\end{minipage}
+%	\hfil
+%	\hfil
+%	\begin{minipage}[t]{0,47\textwidth}	
+%		\centering
+%		\caption{上位机功能清单}
+%		\vspace{0.5cm}	
+%		\begin{tabular}{cc}
+%			\Xhline{1.2pt}
+%			编号  & \multicolumn{1}{c}{功能描述} \\
+%			\Xhline{1.2pt}
+%			1   & \multicolumn{1}{c}{可打开/关闭摄像头} \\
+%			2   & 可通过摄像头捕获图片为目标图片 \\
+%			3   & 可从文件系统内选择图片并载入为目标图片 \\
+%			4   & 可以检测目标图片中圆形轮廓的半径和圆心 \\
+%			5   & 可以检测目标图片中平行直线的间距 \\
+%			6   & 检测算法的参数可自由调整 \\
+%			\Xhline{1.2pt}
+%		\end{tabular}%
+%		\label{gn}%
+%	\end{minipage}
+%\end{table}%
