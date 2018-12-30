@@ -1,8 +1,30 @@
+<h1 align="center">
+  <a href="https://github.com/swq123459/GZHU-Report-Latex-Version">
+    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  </a>
+  <br />
+    <br />
+    <br />
+  GZHU 报告的 Latex 模板
+</h1>
+
+<p align="center">
+  Latex Template for Guangzhou University Report
+</p>
+
+<br />
+<div align="center">
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+    <img alt="Email" src="https://img.shields.io/badge/Mail-QQ-green.svg" />
+    469446490@qq.com
+  </a>
+</div>
+<br />
+
 # 广州大学报告的 `Latex` 模板
-- 之所以会有这样的想法是本人觉得广州大学很多同学的报告都写得很不规范，很多东西需要改进但是又没有足够的意识，本人写过论文，有过许多排版`Latex`的经验，临近毕业之际，应许多人还有老师的关照，将自己制作的这些模板贡献出来，即使没有写过很标准的文档的同学也可以用我的模板编译出美丽而且符合标准的文档，还有很多陆续会更新 （如果有时间的话）
+- 临近毕业之际，应许多人还有老师的关照，将自己制作的这些模板贡献出来，即使没有写过很标准的文档的同学或者对Tex没有基础的同学也可以用我的模板编译出美丽而且符合标准的文档，还有很多陆续会更新 （如果有时间的话）
 - 有好几种样式，可以点进去文件夹中，查看`样例欣赏.pdf`就可以看到大概的效果啦
 - `一些我自己的例子`文件夹中有一些我写的报告，可以看看
-- E-mail:469446490@qq.com
 
 ## 使用方法
 1. 可以通过我写的博客的教程安装`Tex`和`Texstudio`开发环境:
