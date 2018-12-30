@@ -26,8 +26,13 @@
 - `一些我自己的例子`文件夹中有一些我写的报告，可以看看
 
 ## 使用方法
-1. 可以通过我写的博客的教程安装`Tex`和`Texstudio`开发环境:
-> https://blog.csdn.net/qq_33826564/article/details/81490478
+<div>
+  可以通过我写的教程安装`Tex`和`Texstudio`开发环境，点击下面标签
+  <a href="https://blog.csdn.net/qq_33826564/article/details/81490478">
+    <img alt="CSDN BLOG" src="https://img.shields.io/badge/CSDN-swq123459-red.svg" />
+  </a>  
+</div>
+
 2. 安装完成之后我们就可以使用`Texstudio`来写`Latex`文档了，这里很简单，我模板都为大家做好了，要做的就是在`Texstudio`里面点开`.tex`文件，然后点击“编译”按钮，就可以生成好开的`.pdf`格式的报告啦(生成的`.pdf`文件在根目录哦)。
 3. 为了方便小白写`Latex`,我里面注释都有很多比方说公式，图片插入（插入图片最后用`.pdf`的图片或者`.eps`的图片，这样放大之后不会有丢失，也就是矢量图），表格插入，代码插入，之类的示范，大家点进去看就知道了。
 ---------
