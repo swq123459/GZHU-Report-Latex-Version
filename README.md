@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/swq123459/GZHU-Report-Latex-Version">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+    <img alt="AwesomeCV" src="https://github.com/swq123459/swq123456-readmePicture/blob/master/commom/latexhalf.png?raw=true"  />
   </a>
   <br />
     <br />
