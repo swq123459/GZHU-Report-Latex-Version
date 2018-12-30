@@ -3,7 +3,7 @@
 - 有好几种样式，可以点进去文件夹中，查看`样例欣赏.pdf`就可以看到大概的效果啦
 - `一些我自己的例子`文件夹中有一些我写的报告，可以看看
 
- <img src="https://github.com/swq123459/swq123456-readmePicture/blob/master/commom/gmail.svg?raw=true">:469446490@qq.com
+ <img src="swq123456-readmePicture/commom/gmail.svg">:469446490@qq.com
 
 ## 使用方法
 1. 可以通过我写的博客的教程安装`Tex`和`Texstudio`开发环境:
