@@ -27,7 +27,7 @@
 
 ## 使用方法
 <div>
-  可以通过我写的教程安装 CTex 和 Texstudio 开发环境，点击下面标签
+  可以通过我写的教程安装 CTex 和 Texstudio 开发环境，点击右边标签👌
   <a href="https://blog.csdn.net/qq_33826564/article/details/81490478">
     <img alt="CSDN BLOG" src="https://img.shields.io/badge/CSDN-swq123459-red.svg" />
   </a>  
