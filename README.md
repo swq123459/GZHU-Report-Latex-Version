@@ -2,9 +2,8 @@
   <a href="https://github.com/swq123459/GZHU-Report-Latex-Version">
     <img alt="AwesomeCV" src="https://github.com/swq123459/swq123456-readmePicture/blob/master/commom/latexhalf.png?raw=true"  />
   </a>
+
   <br />
-    <br />
-    <br />
   GZHU 报告的 Latex 模板
 </h1>
 
