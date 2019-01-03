@@ -15,7 +15,7 @@
 <div align="center">
   <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
     <img alt="Email" src="https://img.shields.io/badge/Mail-QQ-green.svg" />
-    469446490@qq.com
+    swq123459@qq.com
   </a>
 </div>
 <br />
