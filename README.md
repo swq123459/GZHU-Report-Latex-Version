@@ -13,12 +13,13 @@
 
 <br />
 <div align="center">
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+  <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=LxsZFhsbGRsWH29eXgFMQEI" style="text-decoration:none;">
     <img alt="Email" src="https://img.shields.io/badge/Mail-QQ-green.svg" />
-    swq123459@outlook.com
+
   </a>
 </div>
 <br />
+
 
 # 简单介绍
 - 临近毕业之际，应许多人还有老师的关照，将自己制作的这些模板贡献出来，即使没有写过很标准的文档的同学或者对Tex没有基础的同学也可以用我的模板编译出美丽而且符合标准的文档，还有很多陆续会更新 （如果有时间的话）
