@@ -5,6 +5,7 @@
 %\graphicspath{{chapter/}{figures/}}
 \usepackage{CJK}
 \usepackage{amsmath}%数学
+
 %\usepackage[colorlinks,linkcolor=red]{hyperref}%超链接
 
 \usepackage{fancyhdr}  %使用fancyhdr包自定义页眉页脚
@@ -14,6 +15,10 @@
 
 \usepackage{enumerate}%项目编号
 
+\renewcommand{\figurename}{图}%将figure改为图
+
+\usepackage[]{caption2}%去掉图片编号后的":"
+\renewcommand{\captionlabeldelim}{}
 
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -186,7 +191,7 @@
 
 
 \section*{引\quad 言}
-\addcontentsline{toc}{section}{1\quad  引言}
+\addcontentsline{toc}{section}{1\quad  引言\tiny{\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad}}
 
 引言部分
 
@@ -194,6 +199,8 @@
 \newpage
 \setcounter{section}{1}
 \section{绪论}
+
+
 \subsection{课题背景}
 ********************************************
 \subsection{国内外研究进展情况}
@@ -210,15 +217,20 @@
 
 \newpage
 \section*{结论}
-\addcontentsline{toc}{section}{结论}
+\newcounter{结论编号}   %创建一个计数器，这个计数用于给结论章节编号                     
+\setcounter{结论编号}{\value{section}} %计数器就像变量一样
+\addtocounter{结论编号}{1}
+
+\addcontentsline{toc}{section}{\arabic{结论编号}\quad 结论\tiny{\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad}}
 *****************************************************************
+
 
 \newpage
 \section*{致谢}
+\addcontentsline{toc}{section}{致谢\tiny{\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad}}
 
 ***********************************************************************************************************************************************
 \newpage
-\addcontentsline{toc}{section}{致谢}
 }
 
 %\begin{figure}[H]
@@ -236,7 +248,7 @@
 %参考文献
 \renewcommand\refname{参考文献}
 \begin{thebibliography}{0}
-\addcontentsline{toc}{section}{参考文献}
+\addcontentsline{toc}{section}{参考文献\tiny{\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad}}
 %\bibitem{Butterworth}Butterworth S. On the theory of filter amplifiers[J]. Wireless Engineer, 1930, 7(6): 536-541.
 %
 \bibitem{数字信号处理教材}程佩青. 数字信号处理教程[M]. 清华大学出版社有限公司, 2001.
