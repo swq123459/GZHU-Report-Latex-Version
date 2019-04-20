@@ -20,6 +20,8 @@
 \usepackage[]{caption2}%去掉图片编号后的":"
 \renewcommand{\captionlabeldelim}{}
 
+\renewcommand {\thefigure} {\thesection{}.\arabic{figure}}%图片索引该为按照章节
+
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \lhead{}
@@ -59,23 +61,29 @@
 
 \usepackage{listings}%可以插入代码
 \usepackage{xcolor}%语法高亮支持
+
 %代码格式
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
+\usepackage{fontspec}
+\setmonofont{Consolas}
 \lstset{ %
-	language=Matlab,                % the language of the code
 	numbers=left, 
-	basicstyle=\footnotesize, 
+	basicstyle=\tiny\ttfamily, 
 	numberstyle=\tiny, 
+	tabsize=4,
 	numbersep=5pt, 
-	keywordstyle= \color{ blue!70},
-	commentstyle= \color{red!50!green!50!blue!50}, 
-	frame=shadowbox, % 阴影效果
+	keywordstyle= \color{blue!70}, %关键词为蓝色
+	commentstyle=\color{gray}, %注释为灰色
+	frame=shadowbox, % 框架阴影效果
 	rulesepcolor= \color{ red!20!green!20!blue!20} ,
-	escapeinside=``, % 英文分号中可写入中文
-	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
-	framexleftmargin=2em
+	escapeinside={\%*}{*)},
+	xleftmargin=2em, % 边界选项
+	xrightmargin=2em, % 边界选项
+	aboveskip=1em, % 边界选项
+	framexleftmargin=2em, % 边界选项
+	breaklines,%过长代码自动换行
 }
 
 
@@ -314,15 +322,17 @@
 %	\label{t_abgcs}%
 %\end{table}%
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%
 %%%%%%%%%%%%插入代码示例
 %%%%%%%%%%%%title：代码文件标题
-%%%%%%%%%%%%basicstyle:字体大小
 %%%%%%%%%%%%language:语言，C++,C,Matlab，Python
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%插入代码的时候需要知：注释中同时出现标点符号，英文，中文时会互相影响，
+%这个时候，在标点符号，英文后面都要追加空格，才能正常显示
 %\lstset{language=C++}
-%\begin{lstlisting}[title=AODV100.tr,basicstyle=\tiny]
+%\begin{lstlisting}[title=AODV100.tr]
 %
 %\end{lstlisting}
 
