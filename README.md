@@ -33,6 +33,7 @@
     <img alt="CSDN BLOG" src="https://img.shields.io/badge/CSDN-swq123459-red.svg" />
   </a>  
 </div>
+如果链接失效，可以看看该rep下的文档`教程.md`
 <br />
 
 - 安装完成之后我们就可以使用`Texstudio`来写`Latex`文档了，这里很简单，我模板都为大家做好了，要做的就是在`Texstudio`里面点开`.tex`文件，然后点击“编译”按钮，就可以生成好开的`.pdf`格式的报告啦(生成的`.pdf`文件在根目录哦)。
